@@ -11,17 +11,17 @@ export const setCategories = (categories) => ({
 });
 
 export const setProducts = (products) => ({
-    type: 'SET_PRODUCTS',
+    type: SET_PRODUCTS,
     payload: products,
 });
 
 export const setTotalProducts = (total) => ({
-    type: 'SET_TOTAL_PRODUCTS',
+    type: SET_TOTAL_PRODUCTS,
     payload: total,
 });
 
 export const setSelectedCategory = (category) => ({
-    type: 'SET_SELECTED_CATEGORY',
+    type: SET_SELECTED_CATEGORY,
     payload: category,
 });
 
